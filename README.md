@@ -1,4 +1,4 @@
-# IP Address Information Tool
+<img width="561" height="382" alt="image" src="https://github.com/user-attachments/assets/57eb7321-7b36-4507-9085-b41a917f56f2" /># IP Address Information Tool
 
 A Python command-line application that shows network technicians their computer's
 current **public IPv4 and IPv6 addresses**, plus **location and provider details**
@@ -88,7 +88,7 @@ ip-info-app/
 
 | Name | Role |
 |------|------|
-| [Name 1] | Scrum Leader |
-| [Name 2] | Lead Developer |
-| [Name 3] | Developer – UI |
-| [Name 4] | QA and Documentation |
+| [Shane Isabelle Edurise] | Scrum Leader |
+| [Vince Angelo Eugenio] | Lead Developer |
+| [Vince Angelo Eugenio] | Developer – UI |
+| [Sean Leigh Enriques] | QA and Documentation |
