@@ -189,7 +189,7 @@ def show_ipv4():
     print_header("Public IPv4 Address")
     ip = get_public_ipv4()
     if ip:
-        print_table([["IPv4", Fore.GREEN + ip]])
+        print_table([["IPv4", Fore.GREEN + ip + Style.RESET_ALL]])
 
 
 def show_ipv6():
@@ -197,7 +197,7 @@ def show_ipv6():
     print_header("Public IPv6 Address")
     ip = get_public_ipv6()
     if ip:
-        print_table([["IPv6", Fore.GREEN + ip]])
+        print_table([["IPv6", Fore.GREEN + ip + Style.RESET_ALL]])
     else:
         print(Fore.YELLOW + "No public IPv6 address found. Your network or ISP "
               "may not support IPv6.")
