@@ -3,5 +3,6 @@ __pycache__/
 venv/
 .venv/
 ip_report_*.json
+ip_report_*.csv
 .vscode/
 .DS_Store
