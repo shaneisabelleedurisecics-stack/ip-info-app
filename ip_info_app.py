@@ -187,7 +187,7 @@ def get_ip_version(ip):
 def is_public_ip(ip):
     """Return True if `ip` is a public (globally routable) address."""
     try:
-        return ipaddress.ip_address(ip.strip()).is_global
+        return ipaddress.ip_address(ip.strip()).is_private
     except ValueError:
         return False
 
